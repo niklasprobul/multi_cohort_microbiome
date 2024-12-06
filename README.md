@@ -3,6 +3,10 @@
 This git repository contains all code used in the analysis. 
 
 ## Instructions
+
+### Environment
+The environment to run the code can be created by using `conda create --name <env> --file requirements.txt`. The requirements.txt file is only valid for conda and will fail if you use it with pip.
+
 ### Running the experiments
 By running all cells of `central_analysis.ipynb` or `central_analysis.py`, you will be able to reproduce the results of the paper. 
 
@@ -15,7 +19,7 @@ Results are places in the `data/simulations/` directory. By default, the script 
 ### Runtime
 The script will try to automatically determine, if it is executed on a machine with sufficient hardware. If no sufficient hardware is present, it only repeats the experiment once and only executes the first 2 experiments. To disable this, remove the `if_server()` checks. 
 
-Running an experiment on a normal office machine should take around **50 minutes** per repeat. 
+Running an experiment on a normal office machine should take around **50 minutes** per repeat. Plotting of all figures takes around **10 minutes** per experiment.
 
 ### Telegram inclusion
 As a convenience feature, the scripts progress bar can sync to a telegram bot. To use this feature, follow [this](https://tqdm.github.io/docs/contrib.telegram/) guide from tqdm.

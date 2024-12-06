@@ -1,0 +1,80 @@
+{
+    "taxa":{
+        "normalized": "exp_all.csv",
+        "raw": "taxa_signal_raw_prev0.csv",
+        "prev10": "taxa_signal_raw_prev10.csv",
+        "prev20":"taxa_signal_raw_prev20.csv",
+        "genus": "exp_genus.csv",
+        "correlation":{
+            "85": "exp_corr85.csv",
+            "90": "exp_corr90.csv",
+            "95": "exp_corr95.csv"
+        },
+        "metaphlan": "exp_meta_all.csv",
+        "batch_effect": {
+            "raw": {
+                "bat": "mbec_corrected_bat_prev0.csv",
+                "pls": "mbec_corrected_pls_prev0.csv",
+                "bmc": "mbec_corrected_bmc_prev0.csv",
+                "rbe": "mbec_corrected_rbe_prev0.csv",
+                "svd": "mbec_corrected_svd_prev0.csv"
+            },
+            "prev_10": {
+                "bat": "mbec_corrected_bat_prev10.csv",
+                "pls": "mbec_corrected_pls_prev10.csv",
+                "bmc": "mbec_corrected_bmc_prev10.csv",
+                "rbe": "mbec_corrected_rbe_prev10.csv",
+                "svd": "mbec_corrected_svd_prev10.csv"
+
+            },
+            "prev_20": {
+                "bat": "mbec_corrected_bat_prev20.csv",
+                "pls": "mbec_corrected_pls_prev20.csv",
+                "bmc": "mbec_corrected_bmc_prev20.csv",
+                "rbe": "mbec_corrected_rbe_prev20.csv",
+                "svd": "mbec_corrected_svd_prev20.csv"
+
+            }
+        }
+    },
+    "func": {
+        "normalized": "func_all.csv",
+        "raw": "func_raw_count.csv",
+        "batch_effect": {
+            "raw": {
+                "plsda": "functional_signal_2250_CRC_cohort_20240307_plsda_correction_prev0.tsv",
+                "rbe": "functional_signal_2250_CRC_cohort_20240307_rbe_correction_prev0.tsv",
+                "bat": "functional_signal_2250_CRC_cohort_20240307_bat_correction_prev0.tsv",
+                "bmc": "functional_signal_2250_CRC_cohort_20240307_bmc_correction_prev0.tsv"
+            },
+            "prev_10": {
+                "pls": "functional_signal_2250_CRC_cohort_20240307_pls_correction_prev10.tsv",
+                "bat": "functional_signal_2250_CRC_cohort_20240307_bat_correction_prev10.tsv",
+                "bmc": "functional_signal_2250_CRC_cohort_20240307_bmc_correction_prev10.tsv",
+                "svd": "functional_signal_2250_CRC_cohort_20240307_svd_correction_prev10.tsv",
+                "plsda": "functional_signal_2250_CRC_cohort_20240307_plsda_correction_prev10.tsv",
+                "rbe": "functional_signal_2250_CRC_cohort_20240307_rbe_correction_prev10.tsv"
+            },
+            "prev_20": {
+                "plsda": "functional_signal_2250_CRC_cohort_20240313_plsda_correction_prev20.tsv",
+                "rbe": "functional_signal_2250_CRC_cohort_20240311_rbe_correction_prev20.tsv",
+                "bmc": "functional_signal_2250_CRC_cohort_20240311_bmc_correction_prev20.tsv",
+                "bat": "functional_signal_2250_CRC_cohort_20240311_bat_correction_prev20.tsv"
+            }
+        }
+    },
+    "taxa_func": {
+        "normalized": "taxa_func_all.csv",
+        "raw":"taxa_func_raw_count.csv"
+    },
+    "annotations": {
+        "raw": "anno_full_raw.csv",
+        "all": "anno_full_clean.csv",
+        "no_adenoma": "anno_noadenoma_clean.csv",
+        "brackets": "anno_brackets.csv"
+    },
+    "taxonomy": {
+        "igc2": "taxa.csv",
+        "metaphlan": "taxa_meta.csv"
+    }
+}

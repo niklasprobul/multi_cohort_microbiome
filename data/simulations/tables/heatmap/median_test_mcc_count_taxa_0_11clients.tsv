@@ -1,0 +1,13 @@
+train_dataset	Austria1	Brazil1	China1	China3	China5	France1	Germany1	Germany2	Italy1	Japan1	USA1	USA2
+Austria1, Brazil1, China1, China3, China5, France1, Germany1, Germany2, Italy1, Japan1, USA1												0.26856634
+Austria1, Brazil1, China1, China3, China5, France1, Germany1, Germany2, Italy1, Japan1, USA2											0.561523	
+Austria1, Brazil1, China1, China3, China5, France1, Germany1, Germany2, Italy1, USA1, USA2										0.28791827		
+Austria1, Brazil1, China1, China3, China5, France1, Germany1, Germany2, Japan1, USA1, USA2									0.4605662			
+Austria1, Brazil1, China1, China3, China5, France1, Germany1, Italy1, Japan1, USA1, USA2								0.34188172				
+Austria1, Brazil1, China1, China3, China5, France1, Germany2, Italy1, Japan1, USA1, USA2							0.6602927					
+Austria1, Brazil1, China1, China3, China5, Germany1, Germany2, Italy1, Japan1, USA1, USA2						0.63377714						
+Austria1, Brazil1, China1, China3, France1, Germany1, Germany2, Italy1, Japan1, USA1, USA2					0.44505507							
+Austria1, Brazil1, China1, China5, France1, Germany1, Germany2, Italy1, Japan1, USA1, USA2				0.7253022								
+Austria1, Brazil1, China3, China5, France1, Germany1, Germany2, Italy1, Japan1, USA1, USA2			0.6680339									
+Austria1, China1, China3, China5, France1, Germany1, Germany2, Italy1, Japan1, USA1, USA2		0.2612965										
+Brazil1, China1, China3, China5, France1, Germany1, Germany2, Italy1, Japan1, USA1, USA2	0.65728575											
